@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /*Tablet*/
+
+    body{
+        background-image: linear-gradient(to top, #49A09D, #5F2C82);
+    }
+
+    section#login{
+        width: 80vw;
+        height: 280px;
+    }
+
+    div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /*Desktop*/
+    body{
+        background-image: linear-gradient(to top, #49A09D, #5F2C82);
+    }
+    
+    section#login{
+        width: 65vw;
+        height: 285px;
+    }
+
+    div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#formulario{
+        float: right;
+        width: 50%;
+    }
+
+    div#formulario > h1{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+    }
+
+    div#formulario > p{
+        font-size: 1em;
+        text-align: center;
+    }
+}
